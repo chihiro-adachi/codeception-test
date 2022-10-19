@@ -7,5 +7,6 @@ class HelloCest
         $I->loginAsAdmin();
         $I->amOnPage('/admin');
         $I->see('ホーム');
+        
     }
 }
